@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/chat-records.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/chat-records",
+        "dest": "/api/chat-records.js"
+      }
+    ]
+  }
+  
